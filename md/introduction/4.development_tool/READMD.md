@@ -12,14 +12,14 @@
 
 ## Chrome
 
-[bug.html](./refer/bug.html)을 연다.
+- [bug.html](./refer/bug.html)을 연다.
 
 - 페이지 내 스크립트에 예외가 존재한다.
   - 일단적인 사용자 눈에는 이 예외가 보이지 않아, 개발자 도구를 열어 예외를 확인해야 한다.
 - `key:F12`를 입력 한다.
   - Mac 사용자라면, `key:Cmd+Opt+J`를 입력 한다.
 - 개발자 도구가 열린 화면
-  ![chrome](./refer/chrome.png)
+  - ![chrome](./refer/chrome.png)
 - 붉은 예외 메시지가 보인다.
   - 'lalala'가 정의되지 않았다(not defined)라는 메시지이다.
 - 예외 메시지 우측에 링크 `bug.html:12`가 있다.
@@ -36,6 +36,7 @@
 
 - Mac 전용 브라우저인 Safari에서 개발자 도구를 사용하려면 '개발자 메뉴(Develop menu)'를 명시적으로 활성화해주어야 한다.
 
-- 환경설정(Preferences)의 고급(Advanced) 패널을 클릭한 후 메뉴 막대에서 '개발자용 메뉴 보기' 체크 박스를 체크해 개발자 도구를 활성화 한다.![safari](./refer/safari.png)
+- 환경설정(Preferences)의 고급(Advanced) 패널을 클릭한 후 메뉴 막대에서 '개발자용 메뉴 보기' 체크 박스를 체크해 개발자 도구를 활성화 한다.
+  - ![safari](./refer/safari.png)
 
 - `key:Cmd+Opt+C`를 눌러 개발자 콘솔을 실행할 수 있게 되었다.
