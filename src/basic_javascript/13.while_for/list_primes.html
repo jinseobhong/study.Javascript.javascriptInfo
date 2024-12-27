@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List primes</title>
+    <script>
+      let n = 10;
+      nextPrime: for (let i = 2; i <= n; i++) {
+        // 각 i에 대하여 반복문을 돌림
+        for (let j = 2; j < i; j++) {
+          // 제수(나눗수)를 찾음
+          if (i % j == 0) continue nextPrime; // 소수가 아니므로 다음 i로 넘어감
+        }
+        alert(i); // 소수
+      } // 2, 3, 5, 7
+    </script>
+  </head>
+  <body></body>
+</html>
