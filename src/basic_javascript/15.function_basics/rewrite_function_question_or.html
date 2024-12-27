@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rewrite function question or</title>
+    <script>
+      // 18세 이상인 경우 true를 반환하고, 그렇지 않은 경우 confirm 창을 띄워 확인을 받는다.
+      function checkAge(age) {
+        return age > 18 ? true : confirm("보호자의 동의를 받으셨나요?");
+      }
+      function checkAge(age) {
+        return age > 18 || confirm("보호자의 동의를 받으셨나요?");
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
